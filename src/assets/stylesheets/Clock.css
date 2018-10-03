@@ -1,0 +1,251 @@
+/* Fill screen with component */
+#background{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* Generic Clock component styling */
+h1{
+    text-align: center;
+    font-size: 6em;
+    padding: 1.2em;
+    line-height: 100%;
+    font-weight: bold
+}
+#clock{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+button{
+    padding: 1em;
+    font-size: 2em;
+    margin: auto;
+    display: block;
+    font-weight: bold
+}
+button:hover{
+    cursor: pointer;
+}
+button:focus {
+    outline:0;
+}
+
+
+
+
+
+/*------------------------- "Typical Digital" styles(Clock One) ----------------------*/
+
+.clock-class-one #time-text, .bg-class-six button{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Clock Face Styles */
+.clock-class-one{
+    background-image: linear-gradient(to bottom right, black, #323232);
+}
+.clock-class-one #time-text {
+    color: #00FF00;
+    text-shadow: 1px 1px 12px #00FF00;
+}
+
+/* Background Styles */
+.bg-class-one{
+    background-image: radial-gradient(#f5f5f5,#D3D3D3,#A9A9A9, #808080)
+}
+
+/* Button Styles */
+.bg-class-one button {
+    border-radius: 25px;
+    text-shadow: 1px 2px 1px #808080;
+    border: 4px solid grey;
+    background-image: linear-gradient(to right bottom, #969696, #e0e0e0);
+    box-shadow: 1px 1px 15px black;
+}
+.bg-class-one button:hover{
+    background-image: linear-gradient(to right bottom, #A9A9A9, #f5f5f5);
+    border: 1px solid #808080;
+    box-shadow: none;
+}
+
+
+
+
+
+/*------------------------------ "Hardwood" Styles(Clock Two) ------------------------*/
+
+.bg-class-two button, .clock-class-two #time-text{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #E6E6FA; 
+}
+
+/* Clock Face Styles */
+.clock-class-two #time-text {
+    text-shadow: 0px 0px 6px #D4E6F1;
+    font-weight: bold;
+}
+
+/* Background Styles */
+.bg-class-two{
+    background-image: url('../images/flatwoodgrain.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Button Styles */
+.bg-class-two button {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 5px solid #E6E6FA;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #D4E6F1;
+    text-shadow: 0px 0px 6px #D4E6F1;
+}
+.bg-class-two button:hover{
+    border: 3px groove #ededff;
+    box-shadow: 1px 1px 8px #E6E6FA;
+    text-shadow: 1px 1px 10px #E6E6FA;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+/*------------------------------ "Superfly" Styles(Clock Three) ----------------------*/
+
+.clock-class-three #time-text, .bg-class-three button {
+    font-family: 'Shrikhand', cursive;
+}
+
+/* Clock Face Styles */
+.clock-class-three{
+    background-image: linear-gradient(#182402 ,#387A7C, #C27D20, #AA3815, #76140B);
+    color: #FDECBE;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Background Styles */
+.bg-class-three{
+    background-image: url('../images/brickwall.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Button Styles */
+.bg-class-three button{
+    color: #C27D20;
+    border: 2px solid #C27D20;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    background-color: #5e1009;
+    border: 5px solid #C27D20;  
+}
+.bg-class-three button:hover{
+    background-color: #76140B;
+    border: 2px solid #C27D20;
+}
+
+
+
+
+
+/*------------------------- "Cloning Facility" Styles(Clock Four) --------------------*/
+
+.clock-class-four #time-text, .bg-class-four button {
+    font-family: 'Source Code Pro', monospace;
+    color: #acacff;
+}
+
+/* Clock Styles */
+.clock-class-four #time-text{
+    text-shadow: -2px -2px 8px #acacff;
+}
+
+/* Background Styles */
+.bg-class-four{
+    background-image: linear-gradient(#fffff8,#F8F8FF)
+}
+
+/* Button Styles */
+.bg-class-four button{
+    background-image:none;
+    background-color: white;
+    box-shadow: 0px 0px 15px #acacff;
+    text-shadow: 0px 0px 8px #acacff;
+    border: none;
+}
+.bg-class-four button:hover{
+    background-image: linear-gradient(to bottom right,#ddddd9,#F8F8FF);
+    box-shadow: 0px 0px 8px #acacff;
+    border: 2px solid #ddddd9;
+    text-shadow: 0px 0px 15px #acacff;
+}
+
+
+
+
+
+/* "Savannah Sunset" Styles(Clock 5) */
+
+.bg-class-five button, .clock-class-five #time-text{
+    font-family: 'Cinzel', serif;
+}
+
+/* Clock Styles */
+.clock-class-five{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+/* Background Styles */
+.bg-class-five{
+    background-image: url("../images/elephant.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Button Styles */
+.bg-class-five button{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+.bg-class-five button:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:0.95em;
+}
+
+
+
+
+
+/*-------------------------- "School Desk" Styles(Clock Six) -------------------------*/
+
+.clock-class-six #time-text, .bg-class-six button{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* Clock Face Styles */
+.clock-class-six{
+    background-image: url("../images/notebookpaper.jpg");
+    background-size: cover;
+}
+
+/* Background Styles */
+.bg-class-six{
+    background-image: url("../images/desktop.jpg");
+    background-size: cover;
+}
+
+/* Button Styles */
+.bg-class-six button{
+    background-color: #ff8987;
+    border-radius: 50px 5px 5px 29px;
+}
+
+.bg-class-six button:hover{
+    background-image: radial-gradient(#c96b68 10%, #d6716f 10%, #e57b79 15%, #ff8987 65%)
+}
+
